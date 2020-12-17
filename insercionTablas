@@ -1,3 +1,5 @@
 INSERT INTO public."guardiaseguridad"(
 	"ID", "C.I", "Nombre", apellido, genero, nacionalidad, telefono, fecha_de_nacimiento)
 	VALUES ('1', '1312103144', 'Pedro', 'Lozano', 'Masculino', 'Ecuatoriano', '0995711018','2008/12/31' );
+	
+	
