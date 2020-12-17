@@ -130,3 +130,16 @@ INSERT INTO public.instructor(
 	VALUES (5,1310200215, 'maria',' juarnizo', 0978415902,'18 años' );
 
  
+
+/*Primera consulta */
+select  sum (remuneracion) from actividad_servicio;
+
+/*segunda consulta */
+select count (nombre) as GuardiaInstruidos from guardiaseguridad;
+
+/*tercera consulta*/
+select g.nombre,g.apellido, a.tipo_de_dificultad from public.guardiaseguridad as g inner join public.actividad_servicio as a on g.id_guardseg=a.id_servicio;
+
+/*cuarta consulta*/
+select g.nombre,g.apellido, a.nombre_empresa from public.instructor as g full join public.empresa as a on g.id_instruc=a.id_empresa;
+
