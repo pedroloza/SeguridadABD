@@ -72,21 +72,24 @@ INSERT INTO public.actividad_servicio(
     direccion character varying COLLATE pg_catalog."default",
     pagina_web character varying COLLATE pg_catalog."default",
     correo_eletronico character varying COLLATE pg_catalog."default",
-    "Nombre_Responsable" character varying COLLATE pg_catalog."default",
+    "nombre_Responsable" character varying COLLATE pg_catalog."default",
     CONSTRAINT empresa_pkey PRIMARY KEY ("id_empresa")
     
 ) INSERT INTO public.empresa(
-	"id_empresa", "ruc", "Nombre_empresa", contacto_telefonico, direccion, pagina_web, correo_eletronico, "Nombre_Responsable")
+	"id_empresa", "ruc", "nombre_empresa", contacto_telefonico, direccion, pagina_web, correo_eletronico, "nombre_responsable")
 	VALUES (1, 1309707485001, 'Geoseguridad', '2613335', 'Ave 6 Manta', 'www.geoseguridad.ec', 'ADgeoSeguridad@gmail.com', 'Juan Zapata');
 INSERT INTO public.empresa(
-	"id_empresa", "ruc", "Nombre_empresa", contacto_telefonico, direccion, pagina_web, correo_eletronico, "Nombre_Responsable")
+	"id_empresa", "ruc", "nombre_empresa", contacto_telefonico, direccion, pagina_web, correo_eletronico, "nombre_responsable")
 	VALUES (2, 1309744575001, 'ZiberSeg', '2602354', 'Calle 10 centro manta', 'www.zyb.ec', 'Zyber20@gmail.com', 'Pedro Valdiviezo');
 INSERT INTO public.empresa(
-	"id_empresa", "ruc", "Nombre_empresa", contacto_telefonico, direccion, pagina_web, correo_eletronico, "Nombre_Responsable")
+	"id_empresa", "ruc", "nombre_empresa", contacto_telefonico, direccion, pagina_web, correo_eletronico, "nombre_responsable")
 	VALUES (3, 1309777846001, 'SegTis', '2679784', 'Ave 4 de noviembre', 'www.Seguritytis.ec', 'SeguSeg@gmail.com', 'Iris Echeverria');
 INSERT INTO public.empresa(
-	"id_empresa", "ruc", "Nombre_empresa", contacto_telefonico, direccion, pagina_web, correo_eletronico, "Nombre_Responsable")
+	"id_empresa", "ruc", "nombre_empresa", contacto_telefonico, direccion, pagina_web, correo_eletronico, "nombre_responsable")
 	VALUES (4, 1309112358001, 'TokSecurity', '2619982', 'Nuevo Tarqui ', 'www.tokSecu.ec', 'Atokseg@gmail.com', 'Esther Esperanza');
+INSERT INTO public.empresa(
+	"id_empresa", "ruc", "nombre_empresa", contacto_telefonico, direccion, pagina_web, correo_eletronico, "nombre_responsable")
+	VALUES (5, 1309112351401, 'esporECU', '2619979', 'Calle 319 ave 219 ', 'www.xxECUxx.ec', 'espiECUg@gmail.com', 'Robles Uido');
 
  CREATE TABLE public.empleado
 (
