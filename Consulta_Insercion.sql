@@ -25,16 +25,11 @@ INSERT INTO public.guardiaseguridad(
 INSERT INTO public.guardiaseguridad(
 	"id_guarseg", "c.i", "nombre", apellido, genero, nacionalidad, telefono, fecha_de_nacimiento, edad_servicio_militar, tiempo_servicio_militar)
 	VALUES (5, 1312474965,'Melanie', 'moreira','Femenino','Venezolano', '0995774123', '1986-10-02', 18, '1 año');
+
 INSERT INTO public.guardiaseguridad(
 	"id_guarseg", "c.i", "nombre", apellido, genero, nacionalidad, telefono, fecha_de_nacimiento, edad_servicio_militar, tiempo_servicio_militar)
-	VALUES (6, 1312369854,'Jose', 'cedeño','Masculino','ecuatoriana',   '0995796587', '1988-04-04', 21, '9 meses');
-INSERT INTO public.guardiaseguridad(
-	"id_guarseg", "c.i", "nombre", apellido, genero, nacionalidad, telefono, fecha_de_nacimiento, edad_servicio_militar, tiempo_servicio_militar)
-	VALUES (7, 1317485963,'Dereck', 'cuenca','Masculino','Argentino',   '0995748656', '1987-09-04', 22, '1 año');
-INSERT INTO public.guardiaseguridad(
-	"id_guarseg", "c.i", "nombre", apellido, genero, nacionalidad, telefono, fecha_de_nacimiento, edad_servicio_militar, tiempo_servicio_militar)
-	VALUES (8, 1312412545,'Allen', 'Sheperd','femenino','ecuatoriana',  '0995717845', '1981-07-05', 19, '1 año');
-    
+	VALUES (6, 1317485963,'Dereck', 'cuenca','Masculino','Argentino',   '0995748656', '1987-09-04', 22, '1 año');
+
 
 
 CREATE TABLE public.actividad_servicio
